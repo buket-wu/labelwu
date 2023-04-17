@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: '18'
       - name: Install
-        run: npm install —legacy-peer-deps
+        run: npm install
       - run: npm run bootstrap
       - run: npm run build
 #      - run: npm run lint
