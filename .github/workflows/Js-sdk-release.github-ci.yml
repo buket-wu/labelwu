@@ -36,3 +36,5 @@ jobs:
 #      - run: npm run lint
       - name: publish
         run: npx semantic-release
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
