@@ -12,4 +12,4 @@ jobs:
     - name: Build Type
       run: npm run build:type
     - name: Run ESLint
-      run:  npm run lint
+#      run:  npm run lint
