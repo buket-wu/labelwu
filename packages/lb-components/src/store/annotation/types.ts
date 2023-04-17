@@ -6,7 +6,7 @@ import {
   PointOperation,
   PolygonOperation,
   LineToolOperation,
-} from '@labelbee/lb-annotation';
+} from '@labelwu/lb-annotation';
 import { ANNOTATION_ACTIONS } from '@/store/Actions';
 import { IStepInfo } from '@/types/step';
 import {
@@ -19,7 +19,7 @@ import {
   LoadFileList,
 } from '@/types/data';
 import { ESubmitType } from '@/constant';
-import { IPointCloudBox } from '@labelbee/lb-utils';
+import { IPointCloudBox } from '@labelwu/lb-utils';
 
 export type GraphToolInstance =
   | RectOperation

@@ -17,7 +17,7 @@ import scribbleShortCutTable from './scribble';
 
 import { footerCls } from '../../index';
 import { useTranslation } from 'react-i18next';
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 import { PointCloudContext } from '@/components/pointCloudView/PointCloudContext';
 
 const { EVideoToolName, EPointCloudName } = cTool;

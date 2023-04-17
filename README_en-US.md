@@ -17,12 +17,12 @@
 
 ```bash
 # npm
-npm install @labelbee/lb-annotation
-npm install @labelbee/lb-components
+npm install @labelwu/lb-annotation
+npm install @labelwu/lb-components
 
 # yarn
-yarn add @labelbee/lb-annotation
-yarn add @labelbee/lb-components
+yarn add @labelwu/lb-annotation
+yarn add @labelwu/lb-components
 ```
 
 
@@ -33,7 +33,7 @@ Quick Start Example
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AnnotationView } from '@labelbee/lb-components';
+import { AnnotationView } from '@labelwu/lb-components';
 
 const src = '';
 
@@ -56,7 +56,7 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 
 ## Links
 
-- [LabelBee-Client](https://github.com/open-mmlab/labelbee-client)（Powered by LabelBee）
+- [LabelBee-Client](https://github.com/open-mmlab/labelwu-client)（Powered by LabelBee）
 
 ## LICENSE
 

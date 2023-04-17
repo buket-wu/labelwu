@@ -3,7 +3,7 @@ import { useRotate } from './hooks/useRotate';
 import { useBoxes } from './hooks/useBoxes';
 import { useSingleBox } from './hooks/useSingleBox';
 import React, { useContext, useEffect } from 'react';
-import { cTool, AttributeUtils, CommonToolUtils, EToolName } from '@labelbee/lb-annotation';
+import { cTool, AttributeUtils, CommonToolUtils, EToolName } from '@labelwu/lb-annotation';
 import { message } from 'antd';
 import { connect } from 'react-redux';
 import { a2MapStateToProps, IA2MapStateProps } from '@/store/annotation/map';

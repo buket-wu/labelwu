@@ -12,7 +12,7 @@ import hotkey from '@/assets/annotation/video/icon_keyboard_h.svg';
 import ToolHotKey from '@/views/MainView/toolFooter/FooterTips/ToolHotKey';
 import { useTranslation } from 'react-i18next';
 import { decimalReserved } from '../../utils';
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 const { EVideoToolName } = cTool;
 
 /**

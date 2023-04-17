@@ -1,4 +1,4 @@
-import { i18n } from '@labelbee/lb-utils';
+import { i18n } from '@labelwu/lb-utils';
 import AxisUtils from '@/utils/tool/AxisUtils';
 import { RectOperation } from './rectOperation';
 import type { IRectOperationProps } from './rectOperation';

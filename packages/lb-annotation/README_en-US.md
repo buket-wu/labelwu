@@ -8,17 +8,17 @@ JavaScript Canvas Library, quickly provide annotation such as detection, segment
 
 ```bash
 # NPM
-$ npm install @labelbee/lb-annotation
+$ npm install @labelwu/lb-annotation
 
 # YARN
-$ yarn add @labelbee/lb-annotation
+$ yarn add @labelwu/lb-annotation
 ```
 
 ## Quick Start
 
 ```ts
 import React, { useEffect } from 'react';
-import { AnnotationEngine } from '@labelbee/lb-annotation';
+import { AnnotationEngine } from '@labelwu/lb-annotation';
 
 const imgSrc =
   'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Andre_Iguodala_2016.jpg/1200px-Andre_Iguodala_2016.jpg';

@@ -14,7 +14,7 @@ import HiddenTips from './HiddenTips';
 import PageNumber from './PageNumber';
 import ZoomController from './ZoomController';
 import { Pagination } from './Pagination';
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 import { shortCutTable, ToolHotKeyCom } from './FooterTips/ToolHotKey';
 
 const { EPointCloudName } = cTool;

@@ -1,8 +1,8 @@
-import { IPointCloudBox } from '@labelbee/lb-utils';
+import { IPointCloudBox } from '@labelwu/lb-utils';
 import { useCallback, useContext, useMemo } from 'react';
 import _ from 'lodash';
 import { PointCloudContext } from '../PointCloudContext';
-import { cAnnotation } from '@labelbee/lb-annotation';
+import { cAnnotation } from '@labelwu/lb-annotation';
 import { useHistory } from './useHistory';
 import { usePolygon } from './usePolygon';
 

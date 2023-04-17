@@ -1,11 +1,11 @@
-# `@labelbee/lb-utils`
+# `@labelwu/lb-utils`
 
 > TODO: description
 
 ## Usage
 
 ```
-const lbUtils = require('@labelbee/lb-utils');
+const lbUtils = require('@labelwu/lb-utils');
 
 // TODO: DEMONSTRATE API
 ```
@@ -15,7 +15,7 @@ const lbUtils = require('@labelbee/lb-utils');
 ### ToolStyleConverter
  
 ```ts
-import { toolStyleConverter } from '@labelbee/lb-utils';
+import { toolStyleConverter } from '@labelwu/lb-utils';
 
 interface IToolStyle {
   stroke: string;
@@ -110,7 +110,7 @@ For picture conversion, providing input single channel mask output color picture
 #### Quick Start
 
 ```ts
-import { ImgConversionUtils } from '@labelbee/lb-utils';
+import { ImgConversionUtils } from '@labelwu/lb-utils';
 
 const maskSrc = 'http://10.152.32.16:8080/ADE_val_00001993.png';
 const basicImgSrc = 'http://10.152.32.16:8080/ADE_val_00001993.jpg';
@@ -127,12 +127,12 @@ ImgConversionUtils.getColorMapBySingleChannelMask(
 });
 ```
 
-Show by labelbee
+Show by labelwu
 
 ```ts
 import React, { useEffect, useState } from 'react';
-import { AnnotationView } from '@labelbee/lb-components';
-import { ImgConversionUtils } from '@labelbee/lb-utils';
+import { AnnotationView } from '@labelwu/lb-components';
+import { ImgConversionUtils } from '@labelwu/lb-utils';
 
 const maskSrc = 'http://10.152.32.16:8080/ADE_val_00001993.png';
 const basicImgSrc = 'http://10.152.32.16:8080/ADE_val_00001993.jpg';

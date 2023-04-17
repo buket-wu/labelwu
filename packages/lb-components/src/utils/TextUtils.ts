@@ -5,7 +5,7 @@
  * @LastEditTime: 2022-05-30 15:51:43
  */
 import { ETextType } from '@/data/enums/ToolType';
-import { i18n } from '@labelbee/lb-utils';
+import { i18n } from '@labelwu/lb-utils';
 
 export const REGEXP_NUMBER = '^[0-9]+$';
 export const REGEXP_ENGLISH = '^[A-Za-z]+$';

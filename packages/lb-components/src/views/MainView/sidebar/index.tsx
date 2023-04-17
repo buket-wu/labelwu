@@ -15,7 +15,7 @@ import TagSidebar, { expandIconFuc } from './TagSidebar';
 import TextToolSidebar from './TextToolSidebar';
 import PointCloudToolSidebar from './PointCloudToolSidebar';
 import ToolStyle from './ToolStyle';
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 import ScribbleSidebar from './ScribbleSidebar';
 import { ToolIcons } from './ToolIcons';
 import { useSelector } from '@/store/ctx';

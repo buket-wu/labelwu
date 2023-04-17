@@ -1,10 +1,10 @@
-import { IPointCloudBox, IPointCloudBoxList, IPolygonData } from '@labelbee/lb-utils';
+import { IPointCloudBox, IPointCloudBoxList, IPolygonData } from '@labelwu/lb-utils';
 import {
   PointCloud,
   PointCloudAnnotation,
   ActionsHistory,
   EToolName,
-} from '@labelbee/lb-annotation';
+} from '@labelwu/lb-annotation';
 import React, { useMemo, useRef, useState } from 'react';
 
 interface IPointCloudContextInstances {

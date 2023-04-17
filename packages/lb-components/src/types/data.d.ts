@@ -1,5 +1,5 @@
 import { ESubmitType } from '@/constant';
-import { TMatrix13Tuple, TMatrix14Tuple, ICalib } from '@labelbee/lb-utils';
+import { TMatrix13Tuple, TMatrix14Tuple, ICalib } from '@labelwu/lb-utils';
 
 export interface IMappingImg {
   url: string;

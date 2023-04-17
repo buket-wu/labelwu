@@ -2,7 +2,7 @@
 
 ```bash
 git clone
-cd labelbee
+cd labelwu
 npm i && npm run bootstrap
 npm run start
 ```

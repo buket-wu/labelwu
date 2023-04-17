@@ -15,7 +15,7 @@ import { ESubmitType } from '@/constant';
 import { EPageTurningOperation } from '@/data/enums/AnnotationSize';
 import PageOperator from '@/utils/PageOperator';
 import { jsonParser } from '@/utils';
-import { IPointCloudBox } from '@labelbee/lb-utils';
+import { IPointCloudBox } from '@labelwu/lb-utils';
 
 const dispatchTasks = (dispatch: any, tasks: any[]) => tasks.map((task) => dispatch(task));
 

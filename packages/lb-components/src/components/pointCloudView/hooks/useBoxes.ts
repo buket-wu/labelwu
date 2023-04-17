@@ -1,4 +1,4 @@
-import { IPointCloudBoxList, IPointCloudConfig } from '@labelbee/lb-utils';
+import { IPointCloudBoxList, IPointCloudConfig } from '@labelwu/lb-utils';
 import { useCallback, useContext, useMemo, useState } from 'react';
 import _ from 'lodash';
 import { message, Modal } from 'antd';

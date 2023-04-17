@@ -8,7 +8,7 @@
  */
 
 import { BufferGeometry, FileLoader, Float32BufferAttribute, Loader, LoaderUtils, Points, PointsMaterial } from 'three';
-import { COLOR_MAP_JET } from '@labelbee/lb-utils';
+import { COLOR_MAP_JET } from '@labelwu/lb-utils';
 class PCDLoader extends Loader {
   constructor(manager) {
     super(manager);

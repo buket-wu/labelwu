@@ -1,19 +1,19 @@
 {
-  "name": "@labelbee/lb-annotation",
+  "name": "@labelwu/lb-annotation",
   "version": "1.12.1",
   "description": "Annotation tool collection",
   "keywords": [
     "annotation",
     "canvas"
   ],
-  "homepage": "https://github.com/open-mmlab/labelbee/tree/main/packages/lb-annotation",
+  "homepage": "https://github.com/open-mmlab/labelwu/tree/main/packages/lb-annotation",
   "bugs": {
-    "url": "https://github.com/open-mmlab/labelbee/issues",
+    "url": "https://github.com/open-mmlab/labelwu/issues",
     "email": "brady_luo.sz@foxmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:open-mmlab/labelbee.git"
+    "url": "git@github.com:open-mmlab/labelwu.git"
   },
   "license": "Apache-2.0",
   "files": [
@@ -92,7 +92,7 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "@labelbee/lb-utils": "^1.5.0",
+    "@labelwu/lb-utils": "^1.5.0",
     "@turf/turf": "5.1.6",
     "color-rgba": "^2.3.0",
     "lodash": "^4.17.20",

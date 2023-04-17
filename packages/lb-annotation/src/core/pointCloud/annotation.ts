@@ -4,7 +4,7 @@
  * @author Ron <ron.f.luo@gmail.com>
  */
 
-import { IPointCloudBox, PointCloudUtils, IPointCloudConfig } from '@labelbee/lb-utils';
+import { IPointCloudBox, PointCloudUtils, IPointCloudConfig } from '@labelwu/lb-utils';
 import { EPolygonPattern } from '@/constant/tool';
 import { CanvasScheduler } from '@/newCore';
 import { IPolygonData } from '@/types/tool/polygon';

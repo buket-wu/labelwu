@@ -1,4 +1,4 @@
-import { i18n } from '@labelbee/lb-utils';
+import { i18n } from '@labelwu/lb-utils';
 import MathUtils from '@/utils/MathUtils';
 import RectUtils from '@/utils/tool/RectUtils';
 import {

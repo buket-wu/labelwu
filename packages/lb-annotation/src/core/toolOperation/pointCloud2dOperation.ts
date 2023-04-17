@@ -6,7 +6,7 @@
  * @author Ron <ron.f.luo@gmail.com>
  */
 
-import { IPointCloudConfig, toolStyleConverter, INVALID_COLOR } from '@labelbee/lb-utils';
+import { IPointCloudConfig, toolStyleConverter, INVALID_COLOR } from '@labelwu/lb-utils';
 import { ESortDirection } from '@/constant/annotation';
 import { EPolygonPattern } from '@/constant/tool';
 import { IPolygonData, IPolygonPoint } from '@/types/tool/polygon';

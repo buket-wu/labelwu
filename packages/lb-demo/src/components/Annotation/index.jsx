@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import AnnotationOperation from '@labelbee/lb-components';
-import '@labelbee/lb-components/dist/index.css';
-// import { DrawUtils } from '@labelbee/lb-annotation';
+import AnnotationOperation from '@labelwu/lb-components';
+import '@labelwu/lb-components/dist/index.css';
+// import { DrawUtils } from '@labelwu/lb-annotation';
 import { fileList as urlList } from '../../mock';
 import { message } from 'antd';
 

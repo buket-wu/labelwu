@@ -6,13 +6,13 @@
  */
 
 import { getClassName } from '@/utils/dom';
-import { PointCloud } from '@labelbee/lb-annotation';
+import { PointCloud } from '@labelwu/lb-annotation';
 import {
   EPerspectiveView,
   IPointCloudBox,
   PointCloudUtils,
   toolStyleConverter,
-} from '@labelbee/lb-utils';
+} from '@labelwu/lb-utils';
 import classNames from 'classnames';
 import React, { useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { PointCloudContainer } from './PointCloudLayout';
@@ -166,7 +166,7 @@ const PointCloud3D: React.FC<IA2MapStateProps> = ({ currentData, config }) => {
 
 
       /**
-       * 3DView's zoom synchronizes with topView' zoom. 
+       * 3DView's zoom synchronizes with topView' zoom.
        */
       const zoom = ptCtx.topViewInstance?.pointCloudInstance?.camera.zoom ?? 1;
       ptCtx.mainViewInstance?.updateCameraZoom(zoom);

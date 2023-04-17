@@ -4,10 +4,10 @@
  * @createdate 2022-07-13
  */
 
-import { EPerspectiveView, IPointCloudConfig, PointCloudUtils } from '@labelbee/lb-utils';
+import { EPerspectiveView, IPointCloudConfig, PointCloudUtils } from '@labelwu/lb-utils';
 import React, { useEffect, useState } from 'react';
 import { PointCloudContext } from './PointCloudContext';
-import { UnitUtils } from '@labelbee/lb-annotation';
+import { UnitUtils } from '@labelwu/lb-annotation';
 import { useSingleBox } from './hooks/useSingleBox';
 import { useTranslation } from 'react-i18next';
 
@@ -126,7 +126,7 @@ export const BoxInfos = ({
         );
         subAttributeNameList.forEach((data) => infos.push(data));
       }
-      
+
       setInfos(infos);
     });
   }, [selectedBox, i18n.language]);

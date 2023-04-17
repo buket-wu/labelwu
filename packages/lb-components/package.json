@@ -1,5 +1,5 @@
 {
-  "name": "@labelbee/lb-components",
+  "name": "@labelwu/lb-components",
   "version": "1.8.1",
   "description": "Provide a complete library of annotation components",
   "main": "./dist/index.js",
@@ -34,15 +34,15 @@
     "react"
   ],
   "license": "Apache-2.0",
-  "homepage": "https://github.com/open-mmlab/labelbee/tree/main/packages/lb-components",
+  "homepage": "https://github.com/open-mmlab/labelwu/tree/main/packages/lb-components",
   "bugs": {
-    "url": "https://github.com/open-mmlab/labelbee/issues",
+    "url": "https://github.com/open-mmlab/labelwu/issues",
     "email": "brady_luo.sz@foxmail.com"
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
-    "@labelbee/lb-annotation": "^1.12.1",
-    "@labelbee/lb-utils": "^1.5.0",
+    "@labelwu/lb-annotation": "^1.12.1",
+    "@labelwu/lb-utils": "^1.5.0",
     "ahooks": "^3.4.0",
     "classnames": "^2.3.0",
     "lodash": "^4.17.21",

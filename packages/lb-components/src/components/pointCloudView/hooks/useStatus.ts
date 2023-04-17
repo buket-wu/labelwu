@@ -6,7 +6,7 @@
 
 import { useContext } from 'react';
 import { PointCloudContext } from '../PointCloudContext';
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 import { useHistory } from './useHistory';
 
 const { EToolName, EPolygonPattern } = cTool;
@@ -36,7 +36,7 @@ export const useStatus = () => {
 
     topViewInstance?.pointCloud2dOperation.clearActiveStatus();
     topViewInstance?.pointCloud2dOperation.clearResult();
-    
+
     syncAllViewPointCloudColor([]);
 
     // Add History

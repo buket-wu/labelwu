@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import { CommonToolUtils, uuid } from '@labelbee/lb-annotation';
+import { CommonToolUtils, uuid } from '@labelwu/lb-annotation';
 import StepUtils from '@/utils/StepUtils';
 import { jsonParser } from '@/utils';
 import { VideoPlayer } from './index';

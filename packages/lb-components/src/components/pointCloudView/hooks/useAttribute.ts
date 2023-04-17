@@ -1,4 +1,4 @@
-import { IPointCloudBox } from '@labelbee/lb-utils';
+import { IPointCloudBox } from '@labelwu/lb-utils';
 import { useContext, useEffect } from 'react';
 import { PointCloudContext } from '../PointCloudContext';
 

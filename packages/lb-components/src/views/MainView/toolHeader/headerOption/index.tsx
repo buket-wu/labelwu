@@ -14,7 +14,7 @@ import { EToolName } from '@/data/enums/ToolType';
 import { ChangeSave } from '@/store/annotation/actionCreators';
 import { IStepInfo } from '@/types/step';
 import { useTranslation } from 'react-i18next';
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 const { EVideoToolName, EPointCloudName } = cTool;
 
 interface IProps {

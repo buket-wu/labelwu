@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { i18n } from '@labelbee/lb-utils';
+import { i18n } from '@labelwu/lb-utils';
 import { I18nextProvider } from 'react-i18next';
 import { IVideoTagInstanceAdaptorProps, TagToolInstanceAdaptor } from './TagToolInstanceAdaptor';
 

@@ -18,12 +18,12 @@
 
 ```bash
 # npm
-npm install @labelbee/lb-annotation
-npm install @labelbee/lb-components
+npm install @labelwu/lb-annotation
+npm install @labelwu/lb-components
 
 # yarn
-yarn add @labelbee/lb-annotation
-yarn add @labelbee/lb-components
+yarn add @labelwu/lb-annotation
+yarn add @labelwu/lb-components
 ```
 
 
@@ -34,7 +34,7 @@ yarn add @labelbee/lb-components
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AnnotationView } from '@labelbee/lb-components';
+import { AnnotationView } from '@labelwu/lb-components';
 
 const src = ''; // 可访问的图片路径
 
@@ -57,7 +57,7 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 
 ## 友情链接
 
-- [LabelBee-Client](https://github.com/open-mmlab/labelbee-client)
+- [LabelBee-Client](https://github.com/open-mmlab/labelwu-client)
 
 ## LICENSE
 

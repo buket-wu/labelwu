@@ -7,7 +7,7 @@ Integrate basic annotation rendering, and only need simple configuration to rend
 ## Examples
 
 ```ts
-import { AnnotationView } from '@labelbee/lb-components';
+import { AnnotationView } from '@labelwu/lb-components';
 
 const src = ''; // 可访问的图片路径
 

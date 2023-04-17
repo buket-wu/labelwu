@@ -3,8 +3,8 @@ import { IAnnotationStateProps } from '@/store/annotation/map';
 import { synchronizeBackView, synchronizeSideView } from './usePointCloudViews';
 import { useSingleBox } from './useSingleBox';
 import { PointCloudContext } from '../PointCloudContext';
-import { cAnnotation } from '@labelbee/lb-annotation';
-import { PointCloudUtils } from '@labelbee/lb-utils';
+import { cAnnotation } from '@labelwu/lb-annotation';
+import { PointCloudUtils } from '@labelwu/lb-utils';
 
 const { ERotateDirection } = cAnnotation;
 

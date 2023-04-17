@@ -8,10 +8,10 @@
 
 ```bash
 # NPM
-$ npm install @labelbee/lb-components
+$ npm install @labelwu/lb-components
 
 # YARN
-$ yarn add @labelbee/lb-components
+$ yarn add @labelwu/lb-components
 ```
 
 ## 🪵 Requirements
@@ -29,7 +29,7 @@ $ yarn add @labelbee/lb-components
 ## 🔗 Examples
 
 - [Get Started](../lb-demo/README.md)
-- [客户端下载链接](https://github.com/open-mmlab/labelbee-client)
+- [客户端下载链接](https://github.com/open-mmlab/labelwu-client)
 
 ## ToolLists
 

@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { EditFilled } from '@ant-design/icons';
 import { ToolIcons } from '../ToolIcons';
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 import { PointCloudContext } from '@/components/pointCloudView/PointCloudContext';
 import { Select, Tag, message, Input, Divider } from 'antd';
 import { AppState } from '@/store';
@@ -16,7 +16,7 @@ import { useTranslation } from 'react-i18next';
 import { LabelBeeContext } from '@/store/ctx';
 import BatchUpdateModal from './components/batchUpdateModal';
 import { IFileItem } from '@/types/data';
-import { PointCloudUtils } from '@labelbee/lb-utils';
+import { PointCloudUtils } from '@labelwu/lb-utils';
 import AttributeList from '@/components/attributeList';
 import { IInputList } from '@/types/main';
 import { useAttribute } from '@/components/pointCloudView/hooks/useAttribute';

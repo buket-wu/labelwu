@@ -9,7 +9,7 @@ import {
   TAnnotationViewPolygon,
   TAnnotationViewBox3d,
   IBasicStyle,
-} from '@labelbee/lb-utils';
+} from '@labelwu/lb-utils';
 import _ from 'lodash';
 import rgba from 'color-rgba';
 import DrawUtils from '@/utils/tool/DrawUtils';

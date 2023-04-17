@@ -4,7 +4,7 @@
  * @date 2022-06-20
  */
 
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 const { EVideoToolName, EPointCloudName } = cTool;
 
 class ToolUtils {

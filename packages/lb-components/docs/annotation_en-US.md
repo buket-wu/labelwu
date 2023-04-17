@@ -30,9 +30,9 @@ interface IFileItem {
 ## Quick Start
 
 ```ts
-import AnnotationOperation from '@labelbee/lb-components';
+import AnnotationOperation from '@labelwu/lb-components';
 import 'antd/dist/antd.css';
-import '@labelbee/lb-components/dist/index.css';
+import '@labelwu/lb-components/dist/index.css';
 
 const imgUrl = ''; // You need to change imgUrl
 
@@ -84,9 +84,9 @@ export default App;
 ## Full configuration
 
 ```ts
-import AnnotationOperation from '@labelbee/lb-components';
+import AnnotationOperation from '@labelwu/lb-components';
 import 'antd/dist/antd.css';
-import '@labelbee/lb-components/dist/index.css';
+import '@labelwu/lb-components/dist/index.css';
 
 const imgUrl = ''; // You need to change imgUrl
 

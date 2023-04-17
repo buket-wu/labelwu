@@ -8,14 +8,14 @@ import {
   PointCloud,
   MathUtils,
   getCuboidFromPointCloudBox,
-} from '@labelbee/lb-annotation';
+} from '@labelwu/lb-annotation';
 import {
   IPointCloudBox,
   EPerspectiveView,
   PointCloudUtils,
   IPolygonPoint,
   IPolygonData,
-} from '@labelbee/lb-utils';
+} from '@labelwu/lb-utils';
 import { useContext } from 'react';
 import { PointCloudContext } from '../PointCloudContext';
 import { useSingleBox } from './useSingleBox';

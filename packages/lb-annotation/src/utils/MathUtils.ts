@@ -4,7 +4,7 @@
 
 // eslint-disable-next-line
 import MathUtilsWorker from 'web-worker:./MathUtilsWorker.js';
-import { IBasicLine, IBasicPoint, TAnnotationViewData } from '@labelbee/lb-utils';
+import { IBasicLine, IBasicPoint, TAnnotationViewData } from '@labelwu/lb-utils';
 import { DEFAULT_FONT, DEFAULT_TEXT_MAX_WIDTH, ELineTypes, SEGMENT_NUMBER } from '@/constant/tool';
 import { IPolygonData, IPolygonPoint } from '@/types/tool/polygon';
 import { createSmoothCurvePointsFromPointList } from './tool/polygonTool';

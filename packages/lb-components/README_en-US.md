@@ -8,10 +8,10 @@ LB-Components is an annotation components powered by `LB-Annotation`. Support re
 
 ```bash
 # NPM
-$ npm install @labelbee/lb-components
+$ npm install @labelwu/lb-components
 
 # YARN
-$ yarn add @labelbee/lb-components
+$ yarn add @labelwu/lb-components
 ```
 
 ## 🪵 Requirements
@@ -29,7 +29,7 @@ $ yarn add @labelbee/lb-components
 ## 🔗 Examples
 
 - [Get Started](../lb-demo/README.md)
-- [LabelBee-Client](https://github.com/open-mmlab/labelbee-client)
+- [LabelBee-Client](https://github.com/open-mmlab/labelwu-client)
 
 ## ToolLists
 

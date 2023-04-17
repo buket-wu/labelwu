@@ -1,4 +1,4 @@
-import { IPolygonData } from '@labelbee/lb-utils';
+import { IPolygonData } from '@labelwu/lb-utils';
 import { useContext } from 'react';
 import { PointCloudContext } from '../PointCloudContext';
 import { useHistory } from './useHistory';

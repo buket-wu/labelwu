@@ -5,12 +5,12 @@ import { Form, InputNumber, message, Modal, Popover, Select } from 'antd';
 import React, { useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { QuestionCircleOutlined } from '@ant-design/icons';
-import { IPointCloudConfig, PointCloudUtils } from '@labelbee/lb-utils';
+import { IPointCloudConfig, PointCloudUtils } from '@labelwu/lb-utils';
 import { connect } from 'react-redux';
 import { AppState } from '@/store';
 import { AnnotationFileList } from '@/types/data';
 import { useSingleBox } from '../../hooks/useSingleBox';
-import { MathUtils } from '@labelbee/lb-annotation';
+import { MathUtils } from '@labelwu/lb-annotation';
 
 interface IProps {
   id?: number;
@@ -177,7 +177,7 @@ const UnifyParamsModal = ({ id, visible, onCancel, config, imgList, imgIndex }: 
       visible={visible}
       onCancel={onCancel}
       onOk={onOk}
-      wrapClassName='labelbee-custom-modal'
+      wrapClassName='labelwu-custom-modal'
     >
       <Form {...layout} form={form} onFinish={onFinish}>
         <Form.Item name='id' label={t('UnifyTrackID')}>
@@ -190,7 +190,7 @@ const UnifyParamsModal = ({ id, visible, onCancel, config, imgList, imgIndex }: 
             rules={defaultNumberRules}
             name='prevPage'
             noStyle={true}
-            initialValue={1} // First Page 
+            initialValue={1} // First Page
           >
             <InputNumber
               precision={0}
@@ -213,7 +213,7 @@ const UnifyParamsModal = ({ id, visible, onCancel, config, imgList, imgIndex }: 
             rules={defaultNumberRules}
             name='nextPage'
             noStyle={true}
-            initialValue={imgList.length}  // Last Page 
+            initialValue={imgList.length}  // Last Page
           >
             <InputNumber
               precision={0}

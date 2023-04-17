@@ -7,7 +7,7 @@
 import React from 'react';
 import VideoController from './components/controller';
 import { getClassName } from '@/utils/dom';
-import { cKeyCode } from '@labelbee/lb-annotation';
+import { cKeyCode } from '@labelwu/lb-annotation';
 import { IFileItem } from '@/types/data';
 import { decimalReserved } from './utils';
 import FileException from '../fileException';

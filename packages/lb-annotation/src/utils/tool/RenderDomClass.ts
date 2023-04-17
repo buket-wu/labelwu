@@ -2,7 +2,7 @@
  * 渲染 DOM 类
  */
 
-import { IBasicText } from '@labelbee/lb-utils';
+import { IBasicText } from '@labelwu/lb-utils';
 import DrawUtils from '@/utils/tool/DrawUtils';
 import StyleUtils from './StyleUtils';
 

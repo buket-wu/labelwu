@@ -1,6 +1,6 @@
 import React from 'react';
 /**
- * 后续下方的定义由 @labelbee/lb-annotation 提供
+ * 后续下方的定义由 @labelwu/lb-annotation 提供
  */
 export interface ISize {
   width: number;
@@ -67,9 +67,9 @@ interface IFooter {
   curItems: React.ReactNode;
   /** footer 分隔符 */
   footerDivider: React.ReactNode;
-  
+
   /** 快捷键组件 */
-  ToolHotKeyCom: React.ReactNode; 
+  ToolHotKeyCom: React.ReactNode;
 
   /** 快捷键列表 */
   shortCutTable: {

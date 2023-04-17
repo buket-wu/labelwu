@@ -22,7 +22,7 @@ export enum EPolygonPattern {
 ### 1. 切换模式
 
 ```ts
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 
 const { EPolygonPattern } = cTool;
 
@@ -36,7 +36,7 @@ toolInstance.setPattern(EPolygonPattern.Normal);
 ### 2. 旋转当前多边形
 
 ```ts
-import { cAnnotation } from '@labelbee/lb-annotation';
+import { cAnnotation } from '@labelwu/lb-annotation';
 
 const { ERotateDirection } = cAnnotation;
 

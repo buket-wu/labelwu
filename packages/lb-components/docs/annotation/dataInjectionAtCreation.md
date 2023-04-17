@@ -19,9 +19,9 @@ declare type TDataInjectionAtCreateion = (
 ### 示例
 
 ```ts
-import AnnotationOperation from '@labelbee/lb-components';
+import AnnotationOperation from '@labelwu/lb-components';
 import 'antd/dist/antd.css';
-import '@labelbee/lb-components/dist/index.css';
+import '@labelwu/lb-components/dist/index.css';
 
 const imgUrl = ''; // 你需要更改当前图片路径 imgUrl
 

@@ -1,4 +1,4 @@
-import { IBasicText } from '@labelbee/lb-utils';
+import { IBasicText } from '@labelwu/lb-utils';
 import { isNumber } from 'lodash';
 import { styleDefaultConfig } from '@/constant/defaultConfig';
 import { EOperationMode, EToolName } from '@/constant/tool';

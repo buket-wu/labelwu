@@ -1,4 +1,4 @@
-import { ImgConversionUtils } from '@labelbee/lb-utils';
+import { ImgConversionUtils } from '@labelwu/lb-utils';
 import AxisUtils from '@/utils/tool/AxisUtils';
 import DrawUtils from '@/utils/tool/DrawUtils';
 import { EScribblePattern, EToolName } from '@/constant/tool';

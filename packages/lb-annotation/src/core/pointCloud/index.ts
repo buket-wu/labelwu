@@ -15,7 +15,7 @@ import {
   I3DSpaceCoord,
   IPointCloudConfig,
   toolStyleConverter,
-} from '@labelbee/lb-utils';
+} from '@labelwu/lb-utils';
 import { BufferAttribute, PointsMaterial, Shader } from 'three';
 import HighlightWorker from 'web-worker:./highlightWorker.js';
 import FilterBoxWorker from 'web-worker:./filterBoxWorker.js';

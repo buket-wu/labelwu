@@ -1,4 +1,4 @@
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 const { EVideoToolName, EToolName, EPointCloudName } = cTool;
 
 const rectToolConfig = {

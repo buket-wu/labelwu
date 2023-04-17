@@ -5,8 +5,8 @@
  * @LastEditTime: 2022-06-27 19:43:25
  */
 
-import { PointCloud } from '@labelbee/lb-annotation';
-import { IPointCloudBox, PointCloudUtils } from '@labelbee/lb-utils';
+import { PointCloud } from '@labelwu/lb-annotation';
+import { IPointCloudBox, PointCloudUtils } from '@labelwu/lb-utils';
 import React, { useCallback, useEffect, useRef } from 'react';
 
 interface IProps {

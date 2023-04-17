@@ -11,7 +11,7 @@ import {
   PointCloudUtils,
   TMatrix14Tuple,
   TMatrix13Tuple,
-} from '@labelbee/lb-utils';
+} from '@labelwu/lb-utils';
 import uuid from '@/utils/uuid';
 
 export function createThreeMatrix4(matrix4: TMatrix4Tuple) {

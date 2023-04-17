@@ -1,5 +1,5 @@
 import MainView from '@/views/MainView';
-import { i18n } from '@labelbee/lb-utils';
+import { i18n } from '@labelwu/lb-utils';
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { store } from '.';

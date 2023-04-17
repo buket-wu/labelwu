@@ -1,7 +1,7 @@
 import { AppProps } from '@/App';
 import AnnotationView from '@/components/AnnotationView';
 import PointCloudAnnotationView from '@/components/AnnotationView/pointCloudAnnotationView';
-import { i18n } from '@labelbee/lb-utils';
+import { i18n } from '@labelwu/lb-utils';
 import React, { useImperativeHandle, useState } from 'react';
 import { I18nextProvider } from 'react-i18next';
 import { Provider } from 'react-redux';

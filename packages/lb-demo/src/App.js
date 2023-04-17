@@ -4,8 +4,8 @@
  * @LastEditors: Laoluo luozefeng@sensetime.com
  * @LastEditTime: 2022-06-13 19:34:53
  */
-import { AnnotationView, PointCloudAnnotationView } from '@labelbee/lb-components';
-import StepUtils from '@labelbee/lb-components/dist/utils/StepUtils';
+import { AnnotationView, PointCloudAnnotationView } from '@labelwu/lb-components';
+import StepUtils from '@labelwu/lb-components/dist/utils/StepUtils';
 import 'antd/dist/antd.css';
 import qs from 'qs';
 import React, { useState } from 'react';

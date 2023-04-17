@@ -7,11 +7,11 @@ import { connect } from 'react-redux';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import useSize from '@/hooks/useSize';
 import { useSingleBox } from './hooks/useSingleBox';
-import { ViewOperation, pointCloudLidar2image } from '@labelbee/lb-annotation';
+import { ViewOperation, pointCloudLidar2image } from '@labelwu/lb-annotation';
 import { useTranslation } from 'react-i18next';
 import { LabelBeeContext } from '@/store/ctx';
 import { a2MapStateToProps, IA2MapStateProps } from '@/store/annotation/map';
-import { toolStyleConverter } from '@labelbee/lb-utils';
+import { toolStyleConverter } from '@labelwu/lb-utils';
 
 const Toolbar = ({
   onNext,

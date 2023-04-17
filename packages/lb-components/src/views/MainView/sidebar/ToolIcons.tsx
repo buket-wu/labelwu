@@ -15,7 +15,7 @@ import PolygonASvg from '@/assets/annotation/polygonTool/icon_polygon_a.svg';
 import PolygonSvg from '@/assets/annotation/polygonTool/icon_polygon.svg';
 import rectSvg from '@/assets/annotation/rectTool/icon_rect.svg';
 import rectASvg from '@/assets/annotation/rectTool/icon_rect_a.svg';
-import { cTool } from '@labelbee/lb-annotation';
+import { cTool } from '@labelwu/lb-annotation';
 import classnames from 'classnames';
 import { useTranslation } from 'react-i18next';
 
