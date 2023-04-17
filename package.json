@@ -1,6 +1,12 @@
 {
   "name": "labelwu",
   "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/lb-annotation/**",
+    "packages/lb-components/**",
+    "packages/lb-utils/**"
+  ],
   "version": "1.12.1",
   "scripts": {
     "start": "lerna run build:type && lerna run --parallel --stream start",
@@ -43,10 +49,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "workspaces": [
-    "packages/lb-annotation/*",
-    "packages/lb-components/*",
-    "packages/lb-utils/*"
-  ]
+  }
 }
