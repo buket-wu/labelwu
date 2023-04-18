@@ -32,7 +32,7 @@ jobs:
       - name: Install
         run: npm install
       - run: npm run bootstrap
-#      - run: npm run build
+      - run: npm run build
 #      - run: npm run lint
       - name: publish
         run: npx multi-semantic-release

@@ -1,8 +1,5 @@
 {
   "version": "independent",
-  "publishConfig": {
-    "access": "public"
-  },
   "publish": {
     "ignoreChanges": [
       "ignored-file",
