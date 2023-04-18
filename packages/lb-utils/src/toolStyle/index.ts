@@ -238,7 +238,6 @@ function createColorMapJet() {
     }
   }
 
-  console.log("ddddd")
   return p;
 }
 
