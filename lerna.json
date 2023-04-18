@@ -9,12 +9,5 @@
       "*.md"
     ],
     "message": "chore(release): publish %s"
-  },
-  "command": {
-    "bootstrap": {
-      "npmClientArgs": [
-        "--legacy-peer-deps"
-      ]
-    }
   }
 }
