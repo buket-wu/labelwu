@@ -2,9 +2,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "branches": [
     "main",
     {
