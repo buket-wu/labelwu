@@ -2,10 +2,7 @@
   "name": "labelwu",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "packages/lb-annotation/**",
-    "packages/lb-components/**",
-    "packages/lb-utils/**"
+    "packages/*"
   ],
   "version": "1.12.1",
   "scripts": {
