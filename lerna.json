@@ -1,10 +1,4 @@
 {
-  "packages": [
-    "packages/*",
-    "packages/lb-annotation/**",
-    "packages/lb-components/**",
-    "packages/lb-utils/**"
-  ],
   "version": "independent",
   "publishConfig": {
     "access": "public"
