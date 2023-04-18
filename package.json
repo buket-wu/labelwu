@@ -2,7 +2,10 @@
   "name": "labelwu",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/lb-annotation/**",
+    "packages/lb-components/**",
+    "packages/lb-utils/**"
   ],
   "publishConfig": {
     "access": "public"
