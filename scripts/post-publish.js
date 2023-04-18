@@ -1,6 +1,6 @@
 const minimist = require('minimist');
-const { Octokit } = require('@octokit/rest');
 const nodeFetch = require('node-fetch');
+const { Octokit } = require('@octokit/rest');
 
 const octokit = new Octokit({
     auth: process.env.GH_TOKEN,
