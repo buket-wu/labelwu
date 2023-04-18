@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: '18.9.0'
       - name: Install
-        run: npm install
+        run: npm install --legacy-peer-deps
 #      - run: npm run lint
       - name: publish
         run: npm run semantic
