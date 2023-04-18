@@ -34,10 +34,14 @@
     "react"
   ],
   "license": "Apache-2.0",
-  "homepage": "https://github.com/open-mmlab/labelwu/tree/main/packages/lb-components",
+  "homepage": "https://github.com/buket-wu/labelwu",
   "bugs": {
-    "url": "https://github.com/open-mmlab/labelwu/issues",
+    "url": "https://github.com/buket-wu/labelwu/issues",
     "email": "brady_luo.sz@foxmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:buket-wu/labelwu.git"
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",

@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:open-mmlab/labelwu.git"
+    "url": "git@github.com:buket-wu/labelwu.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
