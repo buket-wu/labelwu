@@ -237,6 +237,8 @@ function createColorMapJet() {
       p[224 + s][2] = 252 - 4 * s;
     }
   }
+
+  console.log("ddddd")
   return p;
 }
 
