@@ -20,7 +20,8 @@
     "version": "lerna version --conventional-graduate --yes",
     "publish": "lerna publish from-package --yes",
     "commit": "cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "semantic": "multi-semantic-release --ignore-private-package"
   },
   "main": "index.js",
   "license": "Apache-2.0",
@@ -49,5 +50,12 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publish": {
+    "ignoreChanges": [
+      "ignored-file",
+      "*.md"
+    ],
+    "message": "chore(release): publish %s"
   }
 }
