@@ -127,7 +127,7 @@ ImgConversionUtils.getColorMapBySingleChannelMask(
 });
 ```
 
-Show by labelwu
+Show by labelbee
 
 ```ts
 import React, { useEffect, useState } from 'react';

@@ -29,7 +29,7 @@ $ yarn add @labelwu/lb-components
 ## 🔗 Examples
 
 - [Get Started](../lb-demo/README.md)
-- [LabelBee-Client](https://github.com/open-mmlab/labelwu-client)
+- [LabelBee-Client](https://github.com/open-mmlab/labelbee-client)
 
 ## ToolLists
 

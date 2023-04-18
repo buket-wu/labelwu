@@ -79,7 +79,7 @@ const BatchUpdateModal = ({ id, stepList, imgList, imgIndex, toolInstance }: IPr
         visible={visible}
         onCancel={onCancel}
         onOk={onOk}
-        wrapClassName='labelwu-custom-modal'
+        wrapClassName='labelbee-custom-modal'
       >
         <Form {...layout} form={form} onFinish={onFinish}>
           <Form.Item name='id' label={t('CurrentBoxTrackIDs')}>

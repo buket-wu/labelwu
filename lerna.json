@@ -1,5 +1,15 @@
 {
   "version": "independent",
+  "publishConfig": {
+    "access": "public"
+  },
+  "publish": {
+    "ignoreChanges": [
+      "ignored-file",
+      "*.md"
+    ],
+    "message": "chore(release): publish %s"
+  },
   "command": {
     "bootstrap": {
       "npmClientArgs": [

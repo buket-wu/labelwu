@@ -177,7 +177,7 @@ const UnifyParamsModal = ({ id, visible, onCancel, config, imgList, imgIndex }: 
       visible={visible}
       onCancel={onCancel}
       onOk={onOk}
-      wrapClassName='labelwu-custom-modal'
+      wrapClassName='labelbee-custom-modal'
     >
       <Form {...layout} form={form} onFinish={onFinish}>
         <Form.Item name='id' label={t('UnifyTrackID')}>

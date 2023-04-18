@@ -56,7 +56,7 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 
 ## Links
 
-- [LabelBee-Client](https://github.com/open-mmlab/labelwu-client)（Powered by LabelBee）
+- [LabelBee-Client](https://github.com/open-mmlab/labelbee-client)（Powered by LabelBee）
 
 ## LICENSE
 
