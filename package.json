@@ -23,6 +23,15 @@
     "access": "public"
   },
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buket-wu/labelwu.git"
+  },
+  "author": "buket-wu",
+  "bugs": {
+    "url": "https://github.com/buket-wu/labelwu/issues"
+  },
+  "homepage": "https://github.com/buket-wu/labelwu#readme",
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",

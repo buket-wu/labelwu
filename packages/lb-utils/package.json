@@ -1,11 +1,9 @@
 {
   "name": "@labelwu/lb-utils",
-  "version": "1.4.0",
+  "version": "1.6.0",
   "description": "utils for label-bee",
-  "author": "Glenfiddish <edwinlee0927@hotmail.com>",
   "license": "Apache-2.0",
   "types": "dist/types/index.d.ts",
-  "homepage": "",
   "main": "dist/index.js",
   "module": "es/index.js",
   "files": [
@@ -13,13 +11,18 @@
     "es",
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:buket-wu/labelwu.git"
-  },
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buket-wu/labelwu.git"
+  },
+  "author": "buket-wu",
+  "bugs": {
+    "url": "https://github.com/buket-wu/labelwu/issues"
+  },
+  "homepage": "https://github.com/buket-wu/labelwu#readme",
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "dev": "rollup -c rollup.config.js -w ",

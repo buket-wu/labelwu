@@ -22,6 +22,15 @@
     "access": "public"
   },
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buket-wu/labelwu.git"
+  },
+  "author": "buket-wu",
+  "bugs": {
+    "url": "https://github.com/buket-wu/labelwu/issues"
+  },
+  "homepage": "https://github.com/buket-wu/labelwu#readme",
   "scripts": {
     "start": "react-scripts start",
     "dev": "npm run start",
