@@ -19,7 +19,6 @@
     "semantic": "multi-semantic-release --ignore-private-packages"
   },
   "main": "index.js",
-  "es": "./es/index.js",
   "publishConfig": {
     "access": "public"
   },
