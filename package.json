@@ -19,6 +19,9 @@
     "semantic": "multi-semantic-release --ignore-private-packages"
   },
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "Apache-2.0",
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
