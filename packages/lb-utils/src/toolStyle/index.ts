@@ -238,6 +238,8 @@ function createColorMapJet() {
     }
   }
 
+  console.log("当条咸鱼吧")
+
   return p;
 }
 
