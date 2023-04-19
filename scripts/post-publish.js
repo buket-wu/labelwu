@@ -57,10 +57,6 @@ async function main() {
     try {
         await sendMessageToWechat(releaseNotes);
 
-        if ( branchName != 'main' ) {
-            return
-        }
-
         await new Promise((resolve) => {
             setTimeout(async () => {
                 createPullRequest({
