@@ -28,7 +28,7 @@
     "dev": "rollup -c rollup.config.js -w ",
     "start": "npm run dev",
     "build": "rollup -c rollup.config.js && npm run build:type",
-    "build:type": "tsc --emitDeclarationOnly --resolveJsonModule",
+    "build:type": "tsc --emitDeclarationOnly --resolveJsonModule"
   },
   "dependencies": {
     "i18next": "^21.3.3",

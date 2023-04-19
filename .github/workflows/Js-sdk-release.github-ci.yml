@@ -33,8 +33,8 @@ jobs:
         run: npm install
       - name: lerna bootstrap
         run: npm run bootstrap
-      - name: lerna build type
-        run: npm run build:type
+      - name: lerna build
+        run: npm run build
       - name: semantic publish
         run: npm run semantic
         env:
