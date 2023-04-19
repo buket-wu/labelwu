@@ -80,3 +80,7 @@ export const composeResult = (
     return result;
   }
 };
+
+export function hello() {
+  return 'hello';
+}

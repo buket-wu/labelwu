@@ -261,6 +261,7 @@ export default class AnnotationEngine {
    * @param customRenderStyle
    */
   public setCustomRenderStyle(customRenderStyle: (data: IAnnotationStyle) => IAnnotationStyle) {
+    // jiadianzhusi
     this.toolInstance.setCustomRenderStyle(customRenderStyle);
   }
 }
