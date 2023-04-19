@@ -29,3 +29,4 @@ export default function uuid(len: number = 8, radix: number = 62) {
 
   return id.join('');
 }
+
