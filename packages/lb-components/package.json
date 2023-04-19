@@ -17,9 +17,7 @@
     "build:type": "tsc --emitDeclarationOnly",
     "commit": "git-cz",
     "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}' && npm run build:type",
-    "lint:fix": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
-    "prepublishOnly": "npm run build"
+    "lint:fix": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix"
   },
   "contributors": [
     "lijingchi",

@@ -238,7 +238,7 @@ function createColorMapJet() {
     }
   }
 
-  console.log("xxxx")
+  console.log("xxxeeex")
 
   return p;
 }

@@ -89,5 +89,5 @@ export * from './constant/tool';
 export * from './core/pointCloud';
 
 export function hello() {
-  return 'hello';
+  return 'helloddd';
 }
