@@ -41,7 +41,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "eslint --cache --ext .js,.jsx,.ts,.tsx  --fix --format=pretty ./src && npm run lint:prettier && npm run build:type",
     "lint:prettier": "npm run prettier && prettier --version && prettier --check \"src/**/*.{js,jsx,ts,tsx,less,md,json}\" --end-of-line auto",
-    "prettier": "prettier --write \"**/**.{js,jsx,tsx,ts,less,md,json}\"",
+    "prettier": "prettier --write \"**/**.{js,jsx,tsx,ts,less,md,json}\""
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [

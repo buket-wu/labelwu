@@ -18,7 +18,7 @@
     "commit": "git-cz",
     "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}' && npm run build:type",
     "lint:fix": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "contributors": [
     "lijingchi",
