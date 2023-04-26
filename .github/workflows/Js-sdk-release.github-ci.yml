@@ -37,9 +37,7 @@ jobs:
         run: npm run semantic
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
-      - name: checkout now
-        uses: actions/checkout@v2
-        with:
-          ref: ${{ github.ref }}
       - name: lb-demo upgrade
         run: npm run updemo
+        env:
+          BRANCH_NAME: ${{ basename(github.ref) }}
