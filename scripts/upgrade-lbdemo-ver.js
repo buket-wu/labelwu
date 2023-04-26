@@ -2,12 +2,17 @@ const {exec} = require('child_process');
 const fs = require('fs')
 const branchName = process.env.BRANCH_NAME;
 
-exec('git checkout ' + branchName, (error) => {
-    if (error) {
-        console.error(`执行出错: ${error}`);
-        return;
-    }
-});
+const checkout = async function() {
+    await exec('git checkout ' + branchName, (error) => {
+        if (error) {
+            console.error(`执行出错: ${error}`);
+            return;
+        }
+        console.log(`stdout: ${stdout}`);
+        console.error(`stderr: ${stderr}`);
+    });
+}
+checkout()
 
 let lbAnnotation = require('../packages/lb-annotation/package.json')
 let lbComponents = require('../packages/lb-components/package.json')
@@ -27,8 +32,6 @@ if (JSON.stringify(newDemo) === JSON.stringify(lbDemo)) {
     console.log("upgrade success; ver not change")
     process.exit(0)
 }
-
-
 
 fs.writeFile(demoPath, JSON.stringify(newDemo, null, "  "), function (err) {
     if (err) {
