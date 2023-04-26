@@ -37,3 +37,5 @@ jobs:
         run: npm run semantic
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+      - name: lb-demo upgrade
+        run: npm run updemo
