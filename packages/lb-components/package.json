@@ -1,6 +1,6 @@
 {
   "name": "@labelwu/lb-components",
-  "version": "1.4.0-alpha.8",
+  "version": "1.4.0-alpha.9",
   "description": "Provide a complete library of annotation components",
   "main": "./dist/index.js",
   "es": "./es/index.js",
@@ -46,8 +46,8 @@
   "homepage": "https://github.com/buket-wu/labelwu#readme",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
-    "@labelwu/lb-annotation": "1.6.0-alpha.8",
-    "@labelwu/lb-utils": "1.19.0-alpha.15",
+    "@labelwu/lb-annotation": "1.6.0-alpha.9",
+    "@labelwu/lb-utils": "1.19.0-alpha.16",
     "ahooks": "^3.4.0",
     "classnames": "^2.3.0",
     "lodash": "^4.17.21",
