@@ -21,7 +21,7 @@ if (JSON.stringify(newDemo) === JSON.stringify(lbDemo)) {
     process.exit(0)
 }
 
-await exec('git checkout ' + branchName, (error) => {
+exec('git checkout ' + branchName, (error) => {
     if (error) {
         console.error(`执行出错: ${error}`);
         return;
