@@ -34,8 +34,11 @@ jobs:
       - name: lerna bootstrap
         run: npm run bootstrap
       - name: semantic publish
-        run: |
-          npm run semantic
-          npm run updemo
+        run: npm run semantic
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+      - name: lb-demo upgrade
+        uses: actions/checkout@v2
+        run: npm run updemo
+        with:
+          ref: ${{ github.ref }}
