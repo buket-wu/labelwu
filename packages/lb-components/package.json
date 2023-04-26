@@ -19,7 +19,6 @@
     "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}' && npm run build:type",
     "lint:fix": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix",
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "prepublishOnly": "npm run build"
   },
   "contributors": [
     "lijingchi",
