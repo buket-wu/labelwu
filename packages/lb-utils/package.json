@@ -1,6 +1,6 @@
 {
   "name": "@labelwu/lb-utils",
-  "version": "1.16.0-alpha.5",
+  "version": "1.16.0-alpha.6",
   "description": "utils for label-bee",
   "license": "Apache-2.0",
   "types": "dist/types/index.d.ts",
