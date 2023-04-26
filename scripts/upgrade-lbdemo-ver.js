@@ -2,6 +2,13 @@ const {exec} = require('child_process');
 const fs = require('fs')
 const branchName = process.env.BRANCH_NAME;
 
+exec('git checkout ' + branchName, (error) => {
+    if (error) {
+        console.error(`执行出错: ${error}`);
+        return;
+    }
+});
+
 let lbAnnotation = require('../packages/lb-annotation/package.json')
 let lbComponents = require('../packages/lb-components/package.json')
 let lbUtils = require('../packages/lb-utils/package.json')
@@ -21,12 +28,7 @@ if (JSON.stringify(newDemo) === JSON.stringify(lbDemo)) {
     process.exit(0)
 }
 
-exec('git checkout ' + branchName, (error) => {
-    if (error) {
-        console.error(`执行出错: ${error}`);
-        return;
-    }
-});
+
 
 fs.writeFile(demoPath, JSON.stringify(newDemo, null, "  "), function (err) {
     if (err) {
