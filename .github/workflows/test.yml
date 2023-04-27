@@ -1,0 +1,22 @@
+name: "test env"
+
+env:
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Test scenario tags'
+        required: false
+        type: string
+
+jobs:
+  release-pub:
+    name: "test env"
+    runs-on: ubuntu-20.04
+    steps:
+      - name: get github branch info
+        run: echo  ${{ github.ref }}
