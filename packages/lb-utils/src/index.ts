@@ -16,7 +16,7 @@ export * from './constant/pointCloud';
 // Types
 export * from './types/index';
 
-// Utils ddd
+// Utils
 export { i18n, toolStyleConverter, PerspectiveShiftUtils, PointCloudUtils, MatrixUtils };
 
 export * from './annotation';
