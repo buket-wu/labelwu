@@ -24,5 +24,4 @@ jobs:
           persist-credentials: false
       - name: get github branch info
         run: |
-          echo ${{ github.head_ref }}
-          echo ${{ github }}
+          echo ${{ github.ref }}
