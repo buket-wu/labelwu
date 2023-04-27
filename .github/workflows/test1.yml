@@ -24,3 +24,8 @@ jobs:
           persist-credentials: false
       - name: get github branch info
         run: npm run testenv
+        env:
+          INPUT_REPOSITORY: ${{ steps.extract_branch.outputs.branch }}
+          INPUT_GITHUB_URL: ${{ steps.extract_branch.outputs.branch }}
+          GITHUB_ACTOR: ${{ steps.extract_branch.outputs.branch }}
+          GITHUB_TOKEN: ${{ steps.extract_branch.outputs.branch }}
