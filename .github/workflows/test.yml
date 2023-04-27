@@ -25,4 +25,4 @@ jobs:
       - name: get github branch info
         run: |
           echo 1${{ github.head_ref }}
-          echo 2${{ GITHUB_REPOSITORY }}
+          echo 2${{ github }}
