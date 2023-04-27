@@ -42,8 +42,4 @@ jobs:
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
       - name: lb-demo upgrade
-        run: |
-          echo ${{ steps.extract_branch.outputs.branch }}
-          npm run updemo
-        env:
-          BRANCH_NAME: ${{ steps.extract_branch.outputs.branch }}
+        run: git rev-parse --abbrev-ref HEAD
