@@ -1,3 +1,3 @@
 const env = process.env;
 
-console.info(env["github"]["repositoryUrl"])
+console.info(env.toString())
