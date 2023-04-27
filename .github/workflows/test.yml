@@ -23,4 +23,6 @@ jobs:
         with:
           persist-credentials: false
       - name: get github branch info
-        run: git rev-parse --abbrev-ref HEAD
+        run: |
+          echo 1${{ github.head_ref }}
+          echo 2${{ GITHUB_REPOSITORY }}
