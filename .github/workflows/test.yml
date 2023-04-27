@@ -24,17 +24,31 @@ jobs:
           persist-credentials: false
       - name: get github branch info
         run: |
+          echo github.action
           echo ${{ github.action }}
+          echo github.action_path
           echo ${{ github.action_path }}
+          echo github.action_ref
           echo ${{ github.action_ref }}
+          echo github.action_repository
           echo ${{ github.action_repository }}
+          echo github.action_status
           echo ${{ github.action_status }}
+          echo github.actor
           echo ${{ github.actor }}
+          echo github.actor_id
           echo ${{ github.actor_id }}
+          echo github.api_url
           echo ${{ github.api_url }}
+          echo github.base_ref
           echo ${{ github.base_ref }}
+          echo github.ref
           echo ${{ github.ref }}
+          echo github.ref_name
           echo ${{ github.ref_name }}
+          echo github.repository
           echo ${{ github.repository }}
+          echo github.repositoryUrl
           echo ${{ github.repositoryUrl }}
+          echo github.token
           echo ${{ github.token }}
