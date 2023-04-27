@@ -42,11 +42,9 @@ jobs:
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
       - name: lb-demo upgrade
-        uses: actions/checkout@v2
         run: |
           npm run updemo
-          git config --global user.email efficiencyHelper@sensetime.com
-          git config --global user.name efficiencyHelper
+          git config --global user.name efficiency-root
           git add packages/lb-demo/package.json
           git commit -m "feat(ci): upgrade lb-demo dependence version"
           git push
