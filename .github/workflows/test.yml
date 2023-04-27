@@ -19,4 +19,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: get github branch info
-        run: echo  ${{ github.ref }}
+        run: echo  ${${{ github.ref }}##*/}
