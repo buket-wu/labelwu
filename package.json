@@ -16,7 +16,8 @@
     "commit": "cz",
     "release": "standard-version",
     "semantic": "multi-semantic-release --ignore-private-packages",
-    "updemo": "node ./scripts/upgrade-lbdemo-ver.js"
+    "updemo": "node ./scripts/upgrade-lbdemo-ver.js",
+    "testenv": "node ./scripts/test.js"
   },
   "main": "index.js",
   "publishConfig": {
