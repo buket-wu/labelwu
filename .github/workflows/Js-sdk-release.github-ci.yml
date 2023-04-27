@@ -42,6 +42,7 @@ jobs:
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
       - name: lb-demo upgrade
+        uses: actions/checkout@v2
         run: |
           npm run updemo
           git config --global user.email efficiencyHelper@sensetime.com
