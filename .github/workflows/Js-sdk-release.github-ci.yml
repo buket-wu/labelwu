@@ -25,6 +25,10 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
       - name: install node js
         uses: actions/setup-node@v2
         with:
@@ -33,10 +37,15 @@ jobs:
         run: npm install
       - name: lerna bootstrap
         run: npm run bootstrap
-      - name: lerna build
-        run: npm run build
-#      - run: npm run lint
       - name: semantic publish
         run: npm run semantic
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+      - name: lb-demo upgrade
+        run: |
+          npm run updemo
+          git config --global user.email "798358194@qq.com"
+          git config --global user.name "buket-wu"
+          git add packages/lb-demo/package.json
+          git commit -m "feat(ci): upgrade lb-demo dependence version"
+          git push
