@@ -1,6 +1,6 @@
 {
   "name": "@labelwu/lb-annotation",
-  "version": "1.6.0-alpha.12",
+  "version": "1.6.0-alpha.13",
   "description": "Annotation tool collection",
   "keywords": [
     "annotation",
@@ -93,7 +93,7 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "@labelwu/lb-utils": "1.19.0-alpha.19",
+    "@labelwu/lb-utils": "1.19.0-alpha.20",
     "@turf/turf": "5.1.6",
     "color-rgba": "^2.3.0",
     "lodash": "^4.17.20",
