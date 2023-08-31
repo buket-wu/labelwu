@@ -87,3 +87,7 @@ export {
 export * from './newCore';
 export * from './constant/tool';
 export * from './core/pointCloud';
+
+export function hello() {
+  return 'helloddddddd';
+}

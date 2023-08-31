@@ -1,6 +1,6 @@
 {
   "name": "@labelwu/lb-components",
-  "version": "1.3.0",
+  "version": "1.6.0",
   "description": "Provide a complete library of annotation components",
   "main": "./dist/index.js",
   "es": "./es/index.js",
@@ -17,9 +17,7 @@
     "build:type": "tsc --emitDeclarationOnly",
     "commit": "git-cz",
     "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}' && npm run build:type",
-    "lint:fix": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
-    "prepublishOnly": "npm run build"
+    "lint:fix": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix"
   },
   "contributors": [
     "lijingchi",
@@ -47,8 +45,8 @@
   "homepage": "https://github.com/buket-wu/labelwu#readme",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
-    "@labelwu/lb-annotation": "1.5.0",
-    "@labelwu/lb-utils": "1.6.0",
+    "@labelwu/lb-annotation": "1.8.0",
+    "@labelwu/lb-utils": "1.14.0",
     "ahooks": "^3.4.0",
     "classnames": "^2.3.0",
     "lodash": "^4.17.21",

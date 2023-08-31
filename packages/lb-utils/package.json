@@ -1,6 +1,6 @@
 {
   "name": "@labelwu/lb-utils",
-  "version": "1.6.0",
+  "version": "1.14.0",
   "description": "utils for label-bee",
   "license": "Apache-2.0",
   "types": "dist/types/index.d.ts",
@@ -28,8 +28,7 @@
     "dev": "rollup -c rollup.config.js -w ",
     "start": "npm run dev",
     "build": "rollup -c rollup.config.js && npm run build:type",
-    "build:type": "tsc --emitDeclarationOnly --resolveJsonModule",
-    "prepublishOnly": "npm run build"
+    "build:type": "tsc --emitDeclarationOnly --resolveJsonModule"
   },
   "dependencies": {
     "i18next": "^21.3.3",
